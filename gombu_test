@@ -1,0 +1,5 @@
+#!/bin/sh
+
+xterm -e /bin/sh -c "server/server_main 33333"
+sleep 1
+xterm -e /bin/sh -c "client/gombu_test.py 127.0.0.1 33333"

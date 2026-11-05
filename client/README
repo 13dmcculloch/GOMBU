@@ -1,0 +1,34 @@
+Chat service
+
+----------
+How to use THE CLIENT:
+
+Connect to the server with the client by running 
+./client.py [server IP] [server port].
+
+Commands:
+/username [new username]
+
+click cross to exit
+
+----------
+(How to use the server)
+Start the server by running ./server.py [listen port]. listen port > 1023.
+Exit the server with SIGINT. 
+
+----------
+Changelog:
+
+v0.5:
+server connection management
+
+v0.4:
+Graphical client
+Removed old client
+
+v0.3:
+Added usernames
+Client is now usable
+
+v0.2:
+Added statistics
